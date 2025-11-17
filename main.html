@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <title>GEOPUZZLE</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+  <main>
+    <div class="top-row">
+      <div class="map-column">
+        <div id="map"></div>
+        <div class="button-group">
+          <button id="btn-locate">moja lokalizacja</button>
+          <button id="btn-download">pobierz mapę</button>
+        </div>
+      </div>
+
+      <div class="puzzle-column">
+        <div id="ukladanka"></div>
+      </div>
+    </div>
+
+    <section id="puzzle-area">
+      <div id="stol"></div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-image/leaflet-image.js"></script>
+  <script src="back.js"></script>
+</body>
+</html>
